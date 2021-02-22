@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Enter a Twitter nickname</h1>
+<form action="/followers" method="post">
+    <input name="nickname" placeholder="Domain" type="text" />
+    <input type="submit" value="Register" />
+</form>
+{% endblock %}
